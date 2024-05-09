@@ -4,7 +4,7 @@ FROM python:latest
 
 # Copy requirements file over
 
-COPY requirements.txt
+COPY requirements.txt .
 
 # Install pip dependencies from requirements
 
